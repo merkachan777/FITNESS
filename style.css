@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.ICONO { width: 10px; 
+    height: 10px;
+    
+
+}
+
+header {
+    background-color: rgb(255, 223, 118);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border-bottom: 6px solid coral;
+}
+
+.logo {
+    width: 24px; 
+    height: 24px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.logo-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.logo-center img {
+    width: 50px; 
+    height: 50px;
+}
+
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a {
+    margin-left: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.banner {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.content, .concepts { background-color: rgb(255, 223, 118);
+    padding: 30px;
+}
+.BASICOS {  display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  
+
+}
+#RUTINAS {
+    display: flex;
+    background-color:rgb(255, 223, 118);
+    list-style-type: none;
+}
+.HEAVYDUTY { display: flex;
+    color: brown;
+
+}
